@@ -34,6 +34,7 @@ document.addEventListener("keydown", function (x) {
         message.textContent = "Game Over! Press Enter To Play Again";
         start = 0;
         if (score > highScore) {
+          highScore = score;
           highScoreMsg.textContent = score;
         }
         score = 0;
