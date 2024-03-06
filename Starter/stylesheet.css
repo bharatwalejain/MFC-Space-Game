@@ -1,0 +1,32 @@
+body {
+  background-color: rgb(54, 54, 54);
+  font-family: Roboto;
+}
+button {
+  padding: 15px 40px;
+  background-color: blueviolet;
+  color: white;
+  font-size: 2rem;
+  border-radius: 20px;
+  border: 0px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: rgb(121, 25, 212);
+}
+.container {
+  padding: 20px;
+  background-color: rgb(244, 77, 77);
+  color: white;
+  width: 300px;
+  aspect-ratio: 1;
+  border-radius: 20px;
+  font-size: 2rem;
+}
+section {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+  margin: 50px;
+}
