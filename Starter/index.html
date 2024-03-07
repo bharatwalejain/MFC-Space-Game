@@ -11,6 +11,19 @@
       <button class="btn">Click Here</button>
       <div class="container">This is a container</div>
     </section>
-    <script></script>
+    <script>
+      const btn = document.querySelector(".btn");
+      const container = document.querySelector(".container");
+      btn.addEventListener("click", function(){
+        console.log("Button Clicked");
+        container.style.backgroundColor = "blue";
+        container.style.border = "25px solid yellow";
+      });
+      btn.addEventListener("mouseover", function(){
+        console.log("Mouse Over");
+        container.style.backgroundColor = "green";
+        container.style.border = "10px solid red";
+      });
+    </script>
   </body>
 </html>
